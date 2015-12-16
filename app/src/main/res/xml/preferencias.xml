@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScren xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="opcion1"
+        android:title="Correo"
+        android:summary="nombre servidor"
+        android:dialogTitle="Dime tu correo electrónico"/>
+    <ListPreference
+        android:key="opcion2"
+        android:title="Color Fondo"
+        android:summary="Color del Fondo"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/coloresFondo"
+        android:entryValues="@array/coloresFondoId"
+    />
+    <ListPreference
+        android:key="opcion3"
+        android:title="Color Texto"
+        android:summary="Color del Texto"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/coloresTexto"
+        android:entryValues="@array/coloresTextoId"
+        />
+</PreferenceScren>

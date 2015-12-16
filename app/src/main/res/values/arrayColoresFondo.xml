@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="coloresFondo">
+        <item>ROJO</item>
+        <item>AMARILLO</item>
+        <item>VERDE</item>
+    </string-array>
+    <string-array name="coloresFondoId">
+        <item>Color.RED</item>
+        <item>Color.YELLOW</item>
+        <item>Color.GREEN</item>
+    </string-array>
+    <string-array name="coloresTexto">
+        <item>BLANCO</item>
+        <item>NEGRO</item>
+        <item>GRIS</item>
+    </string-array>
+    <string-array name="coloresTextoId">
+        <item>Color.WHITE</item>
+        <item>Color.BLACK</item>
+        <item>Color.GREY</item>
+    </string-array>
+</resources>
